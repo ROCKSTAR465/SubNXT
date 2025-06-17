@@ -35,3 +35,24 @@ Make sure you have Python 3.10 or higher installed.
 
 ```bash
 pip install -r requirements.txt
+
+### **1. Run the Web App**
+Launch the Streamlit app locally:
+```bash
+streamlit run SubNXT.py
+```
+
+Once the app is running, open your browser and go to:
+```
+http://localhost:8501
+```
+---
+
+## **Folder Structure**
+
+SubNXT/
+├── SubNXT.py             # Main Streamlit application
+├── requirements.txt       # Python dependencies
+├── README.md              # Project overview and usage
+└── .streamlit/            # (Optional) Streamlit config directory
+
