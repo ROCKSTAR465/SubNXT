@@ -49,10 +49,20 @@ http://localhost:8501
 ---
 
 ## **Folder Structure**
-
+```
 SubNXT/
 ├── SubNXT.py             # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project overview and usage
 └── .streamlit/            # (Optional) Streamlit config directory
+```
 
+
+---
+
+## **Contact**
+For any inquiries or issues, feel free to reach out:
+- **Email**: kumaarsk390@gmail.com
+- **GitHub**: [ROCKSTAR465](https://github.com/ROCKSTAR465)
+
+---
