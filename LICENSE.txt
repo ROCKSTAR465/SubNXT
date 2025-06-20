@@ -1,0 +1,15 @@
+Copyright (c) 2025 ROCKSTAR465
+
+All rights reserved.
+
+This software and its source code (“Software”) are the exclusive property of ROCKSTAR465. 
+Permission is granted to use this Software for personal or internal use only.
+
+You may NOT:
+- Copy, reproduce, distribute, or publicly display the Software, in whole or in part, except as expressly permitted by written authorization from ROCKSTAR465.
+- Sell, resell, sublicense, or otherwise make the Software available to any third party.
+- Modify, adapt, reverse engineer, decompile, or attempt to derive the source code of the Software except as permitted by law.
+
+Any unauthorized use of the Software is strictly prohibited. ROCKSTAR465 reserves all rights not expressly granted herein.
+
+For commercial licensing, redistribution, or other inquiries, please contact: [your email or contact method]
