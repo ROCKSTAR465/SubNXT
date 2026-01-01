@@ -1,5 +1,4 @@
 streamlit
-openai-whisper
+faster-whisper
 ffmpeg-python
 moviepy
-torch
