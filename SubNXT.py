@@ -250,6 +250,22 @@ st.markdown("""
         transform: scale(1.01);
     }
 
+    /* Selectbox (Dropdown) styling */
+    .stSelectbox div[data-baseweb="select"] > div {
+        background-color: var(--secondary) !important;
+        border-radius: 8px !important;
+        border: 1px solid rgba(64, 224, 208, 0.3) !important;
+        color: var(--light) !important;
+    }
+
+    /* Text area styling */
+    .stTextArea textarea {
+        background-color: rgba(17, 17, 17, 0.25) !important;
+        color: var(--light) !important;
+        border: 1px solid rgba(64, 224, 208, 0.3) !important;
+        border-radius: 8px !important;
+    }
+
     /* Expander styling */
     .stExpander {
         background: rgba(17, 17, 17, 0.25) !important;
@@ -414,7 +430,7 @@ def generate_subtitles(video_path, model_type):
             unsafe_allow_html=True
         )
         progress_bar.progress(40)
-        segments, info = model.transcribe(video_path, beam_size=5)
+        segments, _ = model.transcribe(video_path, beam_size=5, task="translate")
 
         status_text.markdown(
             f'<div class="glass card"><div class="card-header"><span class="icon">✍️</span>Processing subtitles...</div></div>',
